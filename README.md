@@ -2,20 +2,23 @@
 
 Este repositorio contiene una comparativa entre el **examen parcial** y su versión **mejorada**, mostrando los avances y ajustes realizados.
 
+---
+
 ## 📋 Examen Parcial
 
 En esta sección se presentan las imágenes correspondientes a la versión inicial del examen.
 
 ### Imágenes del Examen Parcial
 
-![Examen Parcial - Página 1](ruta/de/tu/imagen1.jpg)
+![Diagrama de Clases - Examen Parcial](/images/ExamenParcial/DiagramaClasesExamen.svg)
+![Diagrama de Estados - Examen Parcial](/images/ExamenParcial/DiagramaEstadosExamen.svg)
+![Diagrama de Objetos - Examen Parcial](/images/ExamenParcial/DiagramaObjetosExamen.svg)
 
+### Código Fuente del Examen Parcial
 
-![Examen Parcial - Página 2](ruta/de/tu/imagen2.jpg)
-
-
-![Examen Parcial - Página 3](ruta/de/tu/imagen3.jpg)
-
+- [Diagrama de Clases](/modelosUML/ExamenParcial/DiagramaClasesExamen.puml)
+- [Diagrama de Estados](/modelosUML/ExamenParcial/DiagramaEstadosExamen.puml)
+- [Diagrama de Objetos](/modelosUML/ExamenParcial/DiagramaObjetosExamen.puml)
 
 ---
 
@@ -25,24 +28,26 @@ La siguiente sección incluye imágenes del examen mejorado, incorporando las co
 
 ### Imágenes del Examen Mejorado
 
-![Examen Mejorado - Página 1](ruta/de/tu/imagen4.jpg)
+![Diagrama de Clases - Examen Mejorado](/images/ExamenMejorado/DiagramaClasesMejorado.svg)
+![Diagrama de Estados - Examen Mejorado](/images/ExamenMejorado/DiagramaEstadosMejorado.svg)
+![Diagrama de Objetos - Examen Mejorado](/images/ExamenMejorado/DiagramaEstadosMejorado.svg)
 
+### Código Fuente del Examen Mejorado
 
-![Examen Mejorado - Página 2](ruta/de/tu/imagen5.jpg)
-
-
-![Examen Mejorado - Página 3](ruta/de/tu/imagen6.jpg)
+- [Diagrama de Clases](/modelosUML/ExamenMejorado/DiagramaClasesMejorado.puml)
+- [Diagrama de Estados](/modelosUML/ExamenMejorado/DiagramaEstadosMejorado.puml)
+- [Diagrama de Objetos](/modelosUML/ExamenMejorado/DiagramaObjetosMejorados.puml)
 
 ---
 
 ## 🛠️ Herramientas Usadas
 
 - **Markdown** para la estructura de este documento.
+- **PlantUML** para la generación de diagramas.
 - **Editor de Texto**: VS Code.
-- **PlantUML** 
 
 ---
 
 ## ✍️ Autor
 
-Creado por [Daniel Puente Sarañana]. ¡Gracias por revisar este documento!
+Creado por **Daniel Puente Sarañana**. ¡Gracias por revisar este documento!

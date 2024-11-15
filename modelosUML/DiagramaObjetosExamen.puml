@@ -1,0 +1,71 @@
+@startuml
+package Netflix {
+    object Danii23 {
+        correo = "dani@gmail.com"
+        contrasena = "12345"
+    }
+
+    object Premium {
+        coste = 20€
+        calidad = "4K"
+        numDispositivos = 6
+    }
+
+    object Alberto {
+        tipo = "Adulto"
+        controlParental = "No"
+    }
+
+    object Dani {
+        tipo = "Infantil"
+        controlParental = "Si"
+    }
+
+    object Doraemon {
+        tipo = "Pelicula"
+        episodio = "-"
+        duracion = 120
+    }
+
+    object TheWitcher {
+        tipo = "Serie"
+        episodio = 8
+        duracion = 40
+    }
+
+    object Reco1 {
+        nombre = "Brave"
+    }
+
+    object Reco2 {
+        nombre = "Cars"
+    }
+
+    object Reco1_ {
+        nombre = "Society"
+    }
+
+    object Reco2_ {
+        nombre = "True Blood"
+    }
+
+
+    enum Categoria {
+        Animacion
+        Fantasia
+    }
+
+
+    Danii23 --> Premium : compra
+    Danii23 --> Alberto : crea
+    Danii23 --> Dani : crea
+    Alberto --> Doraemon : buscan
+    Dani --> TheWitcher : buscan
+    Doraemon --> Reco1 : aparecen
+    Doraemon --> Reco2 : aparecen
+    TheWitcher --> Reco1_ : aparecen
+    TheWitcher --> Reco2_ : aparecen
+    Doraemon --> Categoria::Animacion : pertenece
+    TheWitcher --> Categoria::Fantasia : pertenece
+}
+@enduml

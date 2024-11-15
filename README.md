@@ -23,7 +23,7 @@ En esta sección se presentan las imágenes correspondientes a la versión mejor
 | **Imagen**                              | **Ver Código**                                                                 |
 |-----------------------------------------|--------------------------------------------------------------------------------|
 | ![Diagrama de Clases - Examen Mejorado](/images/ExamenMejorado/DiagramaClasesMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaClasesMejorado.puml)         |
-| ![Diagrama de Objetos - Examen Mejorado](/images/ExamenMejorado/DiagramaObjetosMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaObjetosMejorado.puml)      |
+| ![Diagrama de Objetos - Examen Mejorado](/images/ExamenMejorado/DiagramaObjetosMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaObjetosMejorados.puml)      |
 | ![Diagrama de Estados - Examen Mejorado](/images/ExamenMejorado/DiagramaEstadosMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaEstadosMejorado.puml)       |
 
 ---

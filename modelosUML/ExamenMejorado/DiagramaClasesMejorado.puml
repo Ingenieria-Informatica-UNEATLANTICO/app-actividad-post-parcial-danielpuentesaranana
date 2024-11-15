@@ -1,0 +1,63 @@
+@startuml
+package Netflix {
+    class Usuario {
+        correo
+        contrasena
+    }
+    
+    class Suscripcion {
+        coste
+        calidad
+        numDispositivos
+    }
+    
+    class Perfil {
+        tipo
+        controlParental
+    }
+    
+    class Configuracion {
+        idioma
+        notificaciones
+        subtitulosActivados
+        idiomaSubtitulos
+    }
+    
+    class Contenido {
+        tipo
+        episodio
+        duracion
+    }
+    
+    enum Categoria {
+        Animacion
+        Fantasia
+        Accion
+        Drama
+    }
+    
+    class Recomendacion {
+        nombre
+    }
+
+    class Historial {
+        fechaVisualizacion
+        progreso
+    }
+    
+    class Dispositivo {
+        nombre 
+        tipo
+    }
+
+    Usuario  --> Suscripcion : compra
+    Usuario  --> Perfil : crea
+    Perfil  --> Configuracion : tiene
+    Perfil  --> Contenido : busca
+    Perfil  --> Historial : tiene
+    Perfil  --> Dispositivo : usa
+    Contenido  --> Recomendacion : aparecen
+    Contenido  --> Categoria : pertenece
+    Historial  --> Contenido : referencia
+}
+@enduml

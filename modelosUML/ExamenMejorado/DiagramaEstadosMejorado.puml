@@ -1,0 +1,14 @@
+@startuml
+[*] --> CrearUsuario : crear
+CrearUsuario --> ComprarSuscripcion : comprar
+ComprarSuscripcion --> ElegirPerfil : suscribir
+ElegirPerfil --> SeleccionarContenido : elegir
+SeleccionarContenido --> Ver : ver
+Ver --> Recomendaciones : finalizar
+Ver --> Historial : verHistorial
+Historial --> SeleccionarContenido : volver
+Recomendaciones --> [*] : salir
+ConfigurarPerfil --> SeleccionarContenido : guardar
+[*] --> ConfigurarPerfil : configurar perfil (idioma/notificaciones/subtítulos)
+ComprarSuscripcion --> [*] : sin comprar
+@enduml

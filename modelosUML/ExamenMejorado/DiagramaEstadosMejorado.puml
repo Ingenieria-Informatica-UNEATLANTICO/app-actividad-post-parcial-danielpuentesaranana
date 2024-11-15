@@ -1,0 +1,36 @@
+@startuml
+[*] --> Sistema
+
+state Sistema {
+    [*] --> Inactivo
+
+    state Inactivo {
+        [*] --> CrearUsuario
+        CrearUsuario --> ComprarSuscripcion : comprar
+        ComprarSuscripcion --> [*] : sin comprar
+    }
+
+    Inactivo --> Activo : suscribir completado
+
+    state Activo {
+        [*] --> ElegirPerfil
+        ElegirPerfil --> Configuracion : configurar perfil
+
+        state Configuracion {
+            [*] --> ConfiguracionGeneral
+            ConfiguracionGeneral --> Subtitulos : configurar subtítulos
+            ConfiguracionGeneral --> Notificaciones : configurar notificaciones
+        }
+
+        Configuracion --> ElegirContenido : guardar
+
+        ElegirPerfil --> ElegirContenido : elegir contenido
+        ElegirContenido --> Ver : ver contenido
+        Ver --> Recomendaciones : finalizar
+        Ver --> Historial : ver historial
+        Historial --> ElegirContenido : volver
+        Recomendaciones --> [*] : salir
+    }
+}
+@enduml
+

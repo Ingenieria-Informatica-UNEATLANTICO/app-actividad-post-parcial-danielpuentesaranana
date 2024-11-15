@@ -1,0 +1,41 @@
+@startuml
+package Netflix {
+    class Usuario {
+        correo 
+        contraseña
+    }
+    
+    class Suscripcion {
+        coste
+        calidad
+        numDispositivos
+    }
+    
+    class Perfiles {
+        tipo
+        controlParental
+    }
+    
+    class Contenido {
+        tipo
+        episodio
+        duracion
+    }
+    
+    enum Categoria{
+        Anime
+        Accion
+        Drama
+    }
+    
+    class Recomendaciones {
+        nombre
+    }
+
+    Usuario  --> Suscripcion : compra
+    Usuario  --> Perfiles : crea
+    Perfiles --> Contenido : buscan
+    Contenido --> Recomendaciones : aparecen
+    Contenido --> Categoria : pertenece
+}
+@enduml

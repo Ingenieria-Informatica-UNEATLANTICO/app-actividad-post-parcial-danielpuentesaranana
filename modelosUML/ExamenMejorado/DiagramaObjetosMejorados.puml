@@ -1,0 +1,113 @@
+@startuml
+package Netflix {
+    object Danii23 {
+        correo = "dani@gmail.com"
+        contrasena = "12345"
+    }
+
+    object Premium {
+        coste = 20€
+        calidad = "4K"
+        numDispositivos = 6
+    }
+
+    object Alberto {
+        tipo = "Adulto"
+        controlParental = false
+    }
+
+    object Dani {
+        tipo = "Infantil"
+        controlParental = true
+    }
+
+    object Config_Alberto {
+        idioma = "Español"
+        notificaciones = true
+        subtitulosActivados = true
+        idiomaSubtitulos = "Ingles"
+    }
+
+    object Config_Dani  {
+        idioma = "Ingles"
+        notificaciones = false
+        subtitulosActivados = false
+        idiomaSubtitulos = "Ninguno"
+    }
+
+    object Doraemon {
+        tipo = "Pelicula"
+        episodio = -
+        duracion = 120
+    }
+
+    object TheWitcher  {
+        tipo = "Serie"
+        episodio = 8
+        duracion = 40
+    }
+
+    object Reco1  {
+        nombre = "Brave"
+    }
+
+    object Reco2  {
+        nombre = "Cars"
+    }
+
+    object Reco1_ {
+        nombre = "Society"
+    }
+
+    object Reco2_ {
+        nombre = "True Blood"
+    }
+
+    object Historial_Doraemon {
+        fechaVisualizacion = "2024-11-14"
+        progreso = 90
+    }
+
+    object Historial_Witcher  {
+        fechaVisualizacion = "2024-11-15"
+        progreso = 50
+    }
+
+    object Tablet  {
+        nombre = "Tablet"
+        tipo = "Movil"
+    }
+
+    object TV  {
+        nombre = "Smart TV"
+        tipo = "Television"
+    }
+
+    enum Categoria {
+        Animacion
+        Fantasia
+        Accion
+        Drama
+    }
+
+    Danii23 --> Premium : compra
+    Danii23 --> Alberto : crea
+    Danii23 --> Dani : crea
+    Alberto --> Config_Alberto : tiene
+    Dani --> Config_Dani : tiene
+    Alberto --> Doraemon : busca
+    Dani --> TheWitcher : busca
+    Alberto --> Historial_Doraemon : tiene
+    Dani --> Historial_Witcher : tiene
+    Alberto --> Tablet : usa
+    Dani --> TV : usa
+    Doraemon --> Reco1 : aparece
+    Doraemon --> Reco2 : aparece
+    TheWitcher -- Reco1_ : aparece
+    TheWitcher -- Reco2_ : aparece
+    Doraemon --> Categoria::Animacion : pertenece
+    TheWitcher --> Categoria::Fantasia : pertenece
+    Historial_Doraemon --> Doraemon : referencia
+    Historial_Witcher --> TheWitcher : referencia
+}
+@enduml

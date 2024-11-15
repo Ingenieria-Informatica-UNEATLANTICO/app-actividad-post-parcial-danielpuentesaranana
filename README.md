@@ -8,11 +8,11 @@ Este repositorio contiene una comparativa entre el **examen parcial** y su versi
 
 En esta sección se presentan las imágenes correspondientes a la versión inicial del examen junto con los enlaces para acceder al código fuente.
 
-| **Imagen**                              | **Ver Código**                                                                 |
-|-----------------------------------------|--------------------------------------------------------------------------------|
-| ![Diagrama de Clases - Examen Parcial](/images/ExamenParcial/DiagramaClasesExamen.svg) | [Ver Código](./modelosUML/ExamenParcial/DiagramaClasesExamen.puml)             |
-| ![Diagrama de Objetos - Examen Parcial](/images/ExamenParcial/DiagramaObjetosExamen.svg) | [Ver Código](./modelosUML/ExamenParcial/DiagramaObjetosExamen.puml)           |
-| ![Diagrama de Estados - Examen Parcial](/images/ExamenParcial/DiagramaEstadosExamen.svg) | [Ver Código](./modelosUML/ExamenParcial/DiagramaEstadosExamen.puml)           |
+| **Nombre**               | **Imagen**                              | **Ver Código**                                                                 |
+|--------------------------|-----------------------------------------|--------------------------------------------------------------------------------|
+| Diagrama de Clases       | ![Diagrama de Clases - Examen Parcial](/images/ExamenParcial/DiagramaClasesExamen.svg) | [Ver Código](./modelosUML/ExamenParcial/DiagramaClasesExamen.puml)             |
+| Diagrama de Objetos      | ![Diagrama de Objetos - Examen Parcial](/images/ExamenParcial/DiagramaObjetosExamen.svg) | [Ver Código](./modelosUML/ExamenParcial/DiagramaObjetosExamen.puml)           |
+| Diagrama de Estados      | ![Diagrama de Estados - Examen Parcial](/images/ExamenParcial/DiagramaEstadosExamen.svg) | [Ver Código](./modelosUML/ExamenParcial/DiagramaEstadosExamen.puml)           |
 
 ---
 
@@ -20,11 +20,11 @@ En esta sección se presentan las imágenes correspondientes a la versión inici
 
 En esta sección se presentan las imágenes correspondientes a la versión mejorada del examen junto con los enlaces para acceder al código fuente.
 
-| **Imagen**                              | **Ver Código**                                                                 |
-|-----------------------------------------|--------------------------------------------------------------------------------|
-| ![Diagrama de Clases - Examen Mejorado](/images/ExamenMejorado/DiagramaClasesMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaClasesMejorado.puml)         |
-| ![Diagrama de Objetos - Examen Mejorado](/images/ExamenMejorado/DiagramaObjetosMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaObjetosMejorados.puml)      |
-| ![Diagrama de Estados - Examen Mejorado](/images/ExamenMejorado/DiagramaEstadosMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaEstadosMejorado.puml)       |
+| **Nombre**               | **Imagen**                              | **Ver Código**                                                                 |
+|--------------------------|-----------------------------------------|--------------------------------------------------------------------------------|
+| Diagrama de Clases       | ![Diagrama de Clases - Examen Mejorado](/images/ExamenMejorado/DiagramaClasesMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaClasesMejorado.puml)         |
+| Diagrama de Objetos      | ![Diagrama de Objetos - Examen Mejorado](/images/ExamenMejorado/DiagramaObjetosMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaObjetosMejorados.puml)      |
+| Diagrama de Estados      | ![Diagrama de Estados - Examen Mejorado](/images/ExamenMejorado/DiagramaEstadosMejorado.svg) | [Ver Código](./modelosUML/ExamenMejorado/DiagramaEstadosMejorado.puml)       |
 
 ---
 
@@ -39,4 +39,3 @@ En esta sección se presentan las imágenes correspondientes a la versión mejor
 ## ✍️ Autor
 
 Creado por **Daniel Puente Sarañana**. ¡Gracias por revisar este documento!
-
